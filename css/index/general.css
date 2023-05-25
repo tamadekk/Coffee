@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    min-height: 30px; 
+    background-color: black;
+}
+nav ul{
+    margin-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    transition: all 150ms ease-in-out;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+nav ul li:hover{
+    background-color: white;
+}
+nav ul li:hover a{
+    color: black;
+}
+.hamburger{
+    display: none;
+}
+.promo{
+    min-height: 800px;
+    background: url("../../images/index/logo/background.png") center/cover;
+    border-radius: 1px;
+    margin: 0 auto;
+    padding-top: 210px;
+}
+.promo .container .title{
+    font-size: 50px;
+    color: white;
+    font-family: 'Fira Mono', monospace;
+}
+.promo .container p{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+}
+.promo .container button{
+    box-shadow: 0 0.1px 10px 0 #FFFFFF, 0 1px 2px 0 #302e2e;
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 200ms;
+    border: none;
+    opacity: 0.95;
+}
+
+.promo .container button:hover{
+    box-shadow: none;
+    border: none;
+    color: white;
+    background-color: rgba(3, 0, 10, 0.493)
+}
+
+.info{
+    min-height: 900px;
+    padding-top: 240px;
+    background: rgb(0,0,0);
+}
+.info h1{
+
+    text-shadow: 4px 3px 0 #7A7A7A, -31px -40px 0px rgba(255,255,255,0);
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    text-align: center;
+}
+.info .info_divider{  
+    margin: 10px auto;
+    width: 217px;
+    height: 4px;
+    background-color: #ffffff; 
+    box-shadow: 0 0.1px 10px 0 #FFFFFF, 0 1px 2px 0 #302e2e;
+}
+.info .info_wrapper{
+    min-height: 500px;
+    margin: 50px 50px 0px 50px;
+}
+.info .info_wrapper .info_item{
+    min-height: 350px;
+}
+.info .info_wrapper .info_img{
+    height: 320px;
+    float: left;
+    padding-right: 25px;
+}
+
+.info .info_wrapper .info_item .info_text{
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+.end footer {
+	background-color: #000000;
+	color: #FFF;
+	padding: 20px;
+}
+.end .divider{  
+    margin: 10px auto;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff; 
+    box-shadow: 0 0.1px 10px 0 #FFFFFF, 0 1px 2px 0 #302e2e;
+}
+.end .footer_logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.end .footer_logo img {
+	height: 50px;
+}
+footer ul{
+    margin-top: 5px;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    line-height: 30px;
+    transition: all 150ms ease-in-out;
+}
+footer ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+footer ul li:hover{
+    background-color: white;
+}
+footer ul li:hover a{
+    color: black;
+}

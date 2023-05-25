@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    min-height: 30px; 
+    background-color: black;
+}
+nav ul{
+    margin-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    transition: all 150ms ease-in-out;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+nav ul li:hover{
+    background-color: white;
+}
+nav ul li:hover a{
+    color: black;
+}
+.hamburger{
+    display: none;
+}
+
+.promo{
+    padding-top: 50px;
+    padding-bottom: 41px;
+}
+.promo .container h1{
+    padding-top: 55px;
+    text-shadow: 4px 3px 0 #7A7A7A, -31px -40px 0px rgba(255,255,255,0);
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    text-align: center;
+}
+.divider{  
+    margin: 10px auto;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff; 
+    box-shadow: 0 0.1px 10px 0 #FFFFFF, 0 1px 2px 0 #302e2e;
+}
+.promo .container .text{
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe{
+    display: block;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+.map .container .text{
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+.video .test{
+    display: block;
+    margin: 0  auto;
+    width: 50%;
+    height: auto;
+}
+
+.end footer {
+	background-color: #000000;
+	color: #FFF;
+	padding: 20px;
+}
+.end .divider{  
+    margin: 10px auto;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff; 
+    box-shadow: 0 0.1px 10px 0 #FFFFFF, 0 1px 2px 0 #302e2e;
+}
+.end .footer_logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.end .footer_logo img {
+	height: 50px;
+}
+footer ul{
+    margin-top: 5px;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    line-height: 30px;
+    transition: all 150ms ease-in-out;
+}
+footer ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+footer ul li:hover{
+    background-color: white;
+}
+footer ul li:hover a{
+    color: black;
+}

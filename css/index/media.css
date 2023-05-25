@@ -1,0 +1,93 @@
+@media(max-width: 768px){
+    .info{
+        padding: 0px !important;
+    }
+    .info .info_wrapper .info_item{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .info .info_wrapper .info_item .info_img{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }    
+}
+@media (max-width: 732px){
+    nav ul li a{
+        font-size: 11px !important;
+    }
+}
+@media (max-width: 625px){
+    nav .menu{
+        display: flex;
+        margin: 0 auto;
+        right: -100%;
+        position: fixed;
+        top : 0;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        flex-direction: column;
+        background-color  : rgba(0, 0, 0, .8);
+        transition: 0.6s;
+    }
+    nav ul li a{
+        font-size: 17px !important;
+    }
+    nav .menu.active{
+        right : 0;
+    }
+    nav .menu .item{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .hamburger{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        transform: rotateY(-50%);
+        width: 20px;
+        height: 15px;
+    }
+    nav .hamburger span{
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        margin-bottom: 2px;
+        transition: 0.5s all;     
+    }
+    nav .hamburger.active span:nth-child(1){
+        transform: rotate(-45deg);
+        margin-bottom: -2px;
+    }
+    nav .hamburger.active span:nth-child(2){
+        display: none;
+    }
+    nav .hamburger.active span:nth-child(3){
+        transform: rotate(45deg);
+        margin-bottom: -2px;
+    }
+    .info .info_wrapper .info_item .info_img{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }  
+    .info h1{
+        font-size:45px !important;
+    }
+    .info .info_wrapper .info_item .info_text{
+        font-size: 17px !important;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    footer{
+        display: none; 
+    }
+    
+}
